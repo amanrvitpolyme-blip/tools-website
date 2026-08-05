@@ -1,139 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ToolNova - Free Online Tools</title>
-
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
-
-body{
-background:#111827;
-color:white;
-}
-
-header{
-background:#2563eb;
-padding:18px;
-text-align:center;
-font-size:28px;
-font-weight:bold;
-}
-
-.hero{
-padding:40px 20px;
-text-align:center;
-}
-
-.hero h1{
-font-size:32px;
-margin-bottom:10px;
-}
-
-.hero p{
-color:#ddd;
-margin-bottom:20px;
-}
-
-input{
-width:90%;
-max-width:500px;
-padding:14px;
-border:none;
-border-radius:10px;
-font-size:16px;
-}
-
-.tools{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
-gap:20px;
-padding:30px;
-}
-
-.card{
-background:#1f2937;
-padding:20px;
-border-radius:12px;
-text-align:center;
-transition:.3s;
-}
-
-.card:hover{
-background:#2563eb;
-transform:scale(1.05);
-}
-
-a{
-color:white;
-text-decoration:none;
-font-weight:bold;
-}
-
-footer{
-text-align:center;
-padding:20px;
-color:#aaa;
-}
-</style>
-
+<title>ToolNova</title>
 </head>
+<body style="font-family:Arial;text-align:center;background:#222;color:white;">
 
-<body>
+<h1>🛠️ ToolNova</h1>
 
-<header>
-ToolNova
-</header>
+<p>Free Online Tools</p>
 
-<section class="hero">
-
-<h1>Free Online Tools</h1>
-
-<p>Simple, Fast & Free Tools For Everyone</p>
-
-<input type="text" placeholder="Search tools...">
-
-</section>
-
-<section class="tools">
-
-<div class="card">
-<a href="#">Percentage Calculator</a>
-</div>
-
-<div class="card">
-<a href="#">Age Calculator</a>
-</div>
-
-<div class="card">
-<a href="#">EMI Calculator</a>
-</div>
-
-<div class="card">
-<a href="#">GST Calculator</a>
-</div>
-
-<div class="card">
-<a href="#">BMI Calculator</a>
-</div>
-
-<div class="card">
-<a href="#">Word Counter</a>
-</div>
-
-</section>
-
-<footer>
-
-© 2026 ToolNova
-
-</footer>
+<button onclick="alert('Website is working!')">
+Click Me
+</button>
 
 </body>
 </html>
